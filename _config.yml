@@ -1,0 +1,23 @@
+# config
+bio: ''
+
+# Content
+excerpt_link: Read More
+
+# Sidebar
+menu:
+  Home: /
+  About: /about
+  # Archives: /archives
+  # Projects: /projects
+  GitHub: https://github.com/dmarg
+  LinkedIn: https://www.linkedin.com/in/danielmargol
+  Twitter: https://twitter.com/danielmargol
+
+# addthis
+addthis:
+  enable: true
+  pubid: ra-54d8f70177b44d50
+
+# google analytics
+google_analytics: UA-59539046-1
