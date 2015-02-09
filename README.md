@@ -12,7 +12,7 @@ $ git clone https://github.com/dmarg/hexo-theme-pureflat.git themes/pureflat
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `flat`.
+Modify `theme` setting in `_config.yml` to `pureflat`.
 
 ### Update
 
