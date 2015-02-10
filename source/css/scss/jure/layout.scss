@@ -20,7 +20,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #5BB59E;
+  color: #65C2AA;
 }
 
 a:hover,
@@ -100,8 +100,6 @@ h3 {
   font-weight: 400;
   border-bottom: 1px solid #f3f3f3;
   font-family: "Noto Sans", sans-serif ! important;
-  // -webkit-transition: border-left 1s;
-  // transition: border-left 1s;
 }
 
 #sidebar_nav a:hover,
@@ -109,6 +107,7 @@ h3 {
   margin-left: -0.2em;
   border-left: solid 0.2em #019c74;
   text-decoration: none;
+  background: #f3f3f3
 }
 
 /*
