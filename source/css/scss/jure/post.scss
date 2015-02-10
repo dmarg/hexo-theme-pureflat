@@ -142,7 +142,7 @@ $font_base_post: "Noto Sans", sans-serif ! important;
     padding: 0.6em;
     color: #2a2a2a;
     font-weight: bold;
-    background-color: #d3d3d3;
+    background-color: #f3f3f3;
     // box-shadow: 0px 3px 1px rgba(1, 156, 116, 1);
   }
 
@@ -150,7 +150,7 @@ $font_base_post: "Noto Sans", sans-serif ! important;
     padding: 0.4em;
     color: #2a2a2a;
     font-weight: bold;
-    background-color: #d3d3d3;
+    background-color: #f3f3f3;
     // box-shadow: 0px 3px 1px rgba(1, 156, 116, 1);
   }
 
@@ -158,7 +158,7 @@ $font_base_post: "Noto Sans", sans-serif ! important;
     padding: 0.2em;
     color: #2a2a2a;
     font-weight: bold;
-    background-color: #d3d3d3;
+    background-color: #f3f3f3;
     // box-shadow: 0px 3px 1px rgba(1, 156, 116, 1);
   }
 
@@ -240,4 +240,11 @@ $font_base_post: "Noto Sans", sans-serif ! important;
 /* ----------- addthis ****** General Style ----------- */
 .addthis_sharing_toolbox {
   margin: 0 0 2em;
+}
+
+
+/* ----------- img a tag ****** General Style ----------- */
+
+.side-img {
+  border-radius: 4px;
 }
