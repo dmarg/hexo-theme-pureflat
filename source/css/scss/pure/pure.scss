@@ -483,7 +483,7 @@ table {
 }
 
 .pure-button-hover, .pure-button:hover, .pure-button:focus {
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .1)));
   background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1));
   background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .05) 0, rgba(0, 0, 0, .1));
@@ -502,8 +502,8 @@ table {
 .pure-button[disabled], .pure-button-disabled, .pure-button-disabled:hover, .pure-button-disabled:focus, .pure-button-disabled:active {
   border: 0;
   background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  filter: alpha(opacity=40);
+  // filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  // filter: alpha(opacity=40);
   -khtml-opacity: .4;
   -moz-opacity: .4;
   opacity: .4;
@@ -553,13 +553,13 @@ table {
 
 .pure-form input[type=text]:focus, .pure-form input[type=password]:focus, .pure-form input[type=email]:focus, .pure-form input[type=url]:focus, .pure-form input[type=date]:focus, .pure-form input[type=month]:focus, .pure-form input[type=time]:focus, .pure-form input[type=datetime]:focus, .pure-form input[type=datetime-local]:focus, .pure-form input[type=week]:focus, .pure-form input[type=number]:focus, .pure-form input[type=search]:focus, .pure-form input[type=tel]:focus, .pure-form input[type=color]:focus, .pure-form select:focus, .pure-form textarea:focus {
   outline: 0;
-  outline: thin dotted \9;
+  // outline: thin dotted \9;
   border-color: #129FEA
 }
 
 .pure-form input:not([type]):focus {
   outline: 0;
-  outline: thin dotted \9;
+  // outline: thin dotted \9;
   border-color: #129FEA
 }
 
