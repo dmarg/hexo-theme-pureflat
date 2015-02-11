@@ -11,8 +11,12 @@
 
         <div id="sidebar_nav" class="pure-menu pure-menu-open">
             <ul>
-                <% for (var i in theme.menu){ %>
-                <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
+                <% for (var i in theme.menu) { %>
+                    <% if (i === 'GitHub' || i === 'LinkedIn' || i === 'Twitter') { %>
+                        <li><a href="<%- theme.menu[i] %>" target="_blank"><%= i %></a></li>
+                    <% } else { %>
+                        <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
+                    <% } %>
                 <% } %>
             </ul>
         </div>
