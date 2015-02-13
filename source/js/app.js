@@ -18,7 +18,7 @@ function init(){
 
 ;(function ($, window, document, undefined) {
 
-  if (window.location.pathname.split('/')[1] === 'p') {
+  if (window.location.pathname.split('/')[1] === 'post') {
 
     var pluginName = "readingTime";
 
