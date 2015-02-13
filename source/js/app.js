@@ -17,6 +17,8 @@ function init(){
     $(".fancybox").fancybox();
 }
 
+
+// jQuery Reading Time
 ;(function ($, window, document, undefined) {
 
   if (window.location.pathname.split('/')[1] === 'post') {
