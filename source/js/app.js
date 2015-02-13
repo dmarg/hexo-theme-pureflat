@@ -5,6 +5,7 @@ $(document).ready(function () {
         event.preventDefault();
         $(".content-header").toggle( flip++ % 2 === 0 );
     });
+    $('.post').readingTime();
 });
 
 $(window).resize(function () {
