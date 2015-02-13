@@ -1,4 +1,8 @@
 /* ----------- Post ****** List Style ----------- */
+p {
+  font-size: 14pt;
+}
+
 .post-list {
   position: relative;
   float: left;
@@ -83,10 +87,10 @@
 $color_base_post_link: #222;
 $color_base_post_link_active: #019C74;
 $color_base_post_description: #444;
-$font_base_post: "Noto Sans", sans-serif ! important;
+$font_base_post: 'Open Sans', sans-serif ! important;
 
 .post {
-  padding-bottom: 2em;
+  padding-bottom: 0.2em;
   font-family: $font_base_post;
   // box-shadow: 0 1px 1px #eee;
 }
@@ -102,7 +106,7 @@ $font_base_post: "Noto Sans", sans-serif ! important;
 }
 
 .post-title {
-  font-size: 2em;
+  font-size: 36pt;
   color: $color_base_post_link;
   margin-bottom: 0.2em;
   a {
@@ -139,28 +143,28 @@ $font_base_post: "Noto Sans", sans-serif ! important;
   }
 
   h2{
-    padding: 0.3em;
     color: #2a2a2a;
     font-weight: bold;
-    text-decoration: underline;
+    font-size: 28pt;
+    margin: 1.1em auto;
     // background-color: #f3f3f3;
     // box-shadow: 0px 3px 1px rgba(1, 156, 116, 1);
   }
 
   h3{
-    padding: 0.4em;
     color: #2a2a2a;
     font-weight: bold;
-    text-decoration: underline;
+    font-size: 20pt;
+    margin: 1em auto;
     // background-color: #f3f3f3;
     // box-shadow: 0px 3px 1px rgba(1, 156, 116, 1);
   }
 
   h4{
-    padding: 0.2em;
     color: #2a2a2a;
     font-weight: bold;
-    text-decoration: underline;
+    font-size: 16pt;
+    margin: 0.9em auto;
     // background-color: #f3f3f3;
     // box-shadow: 0px 3px 1px rgba(1, 156, 116, 1);
   }
@@ -177,7 +181,7 @@ $font_base_post: "Noto Sans", sans-serif ! important;
 .post-meta {
   color: #999;
   font-size: 90%;
-  margin: 0.3em 0;
+  margin: 0.3em 0 3em;
   a {
     &:hover {
       text-decoration: none;
@@ -190,7 +194,7 @@ $font_base_post: "Noto Sans", sans-serif ! important;
   padding: 0.3em 1em;
   color: #fff;
   background: #999;
-  font-size: 90%;
+  font-size: 95%;
   a {
     color: #fff;
     &:hover {
@@ -242,7 +246,7 @@ $font_base_post: "Noto Sans", sans-serif ! important;
 
 /* ----------- addthis ****** General Style ----------- */
 .addthis_sharing_toolbox {
-  margin: 0 0 2em;
+  margin: 1em 0 2em;
 }
 
 

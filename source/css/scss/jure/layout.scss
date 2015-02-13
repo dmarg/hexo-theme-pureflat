@@ -96,7 +96,7 @@ h3 {
 #sidebar_nav a {
   background: transparent;
   letter-spacing: 0.05em;
-  font-size: 1.1em;
+  font-size: 1.4em;
   font-weight: 400;
   border-bottom: 1px solid #f3f3f3;
   font-family: "Noto Sans", sans-serif ! important;
@@ -226,11 +226,12 @@ h3 {
 .pagination {
   position: relative;
   width: 100%;
-  margin: 1em auto;
+  margin: 3em auto !important;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: #9EABB3;
   text-align: center;
+  padding: 1em 0 !important;
 }
 
 .pagination a {
@@ -244,7 +245,7 @@ h3 {
   padding: 0 15px;
   border: #EBF2F6 2px solid;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 3px;
   transition: border ease 0.3s;
 }
 
@@ -330,6 +331,9 @@ h3 {
 
 //  Mini than 768px
 @media screen and (max-width: 768px) {
+  .pure-menu li a {
+    font-size: 1.2em;
+  }
 
   .layout {
     padding: 0;
@@ -368,7 +372,7 @@ h3 {
     width: 270px;
   }
   .content {
-    padding: 2em 2em 0;
+    padding: 0 2em;
   }
 }
 
@@ -387,6 +391,6 @@ h3 {
     width: 340px;
   }
   .content {
-    padding: 2em 2em 0;
+    padding: 0 2em;
   }
 }
