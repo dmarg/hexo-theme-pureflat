@@ -5,7 +5,7 @@ $(document).ready(function () {
         event.preventDefault();
         $(".content-header").toggle( flip++ % 2 === 0 );
     });
-    $('.post').readingTime();
+    $('.post').getReadingTime();
 });
 
 $(window).resize(function () {
@@ -19,11 +19,11 @@ function init(){
 
 
 // jQuery Reading Time
-;(function ($, window, document, undefined) {
+(function ($, window, document, undefined) {
 
   if (window.location.pathname.split('/')[1] === 'post') {
 
-    var pluginName = "readingTime";
+    var pluginName = "getReadingTime";
 
     var defaults = {
       bubble: '#scrollbubble'
